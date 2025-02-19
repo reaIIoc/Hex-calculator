@@ -1,12 +1,10 @@
+// Converts decimal to binary code and hex. 
 // ovh.feminine216@passinbox.com
 
 #include <stdio.h>
 #include <stdlib.h>
 #include <windows.h>
 #include <strings.h>
-
-// Converts decimal to binary code. 
-// ovh.feminine216@passinbox.com
 
 
 #include <stdio.h>
@@ -18,18 +16,6 @@ void sleep(int x) {
 
 void clearScreen() {
   system("cls");
-}
-
-
-void hexToDec() {
-  char hex[30];
-  clearScreen();
-  printf("\tEnter hex value: ");
-  scanf("%d", &hex);
-  char hexchart[15] = "123456789ABCDEF";
-  int size = strlen(hex);
-  printf("ISZE: %d", size);
-  sleep(2000);  
 }
 
 
@@ -103,9 +89,6 @@ int main() {
       main();
     case 2:
       decToBin();
-      main();
-    case 3:
-      hexToDec();
       main();
   }
 }
