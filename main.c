@@ -6,18 +6,13 @@
 #include <windows.h>
 #include <strings.h>
 
-
-#include <stdio.h>
-
 void sleep(int x) {
   Sleep(x);
 }
 
-
 void clearScreen() {
   system("cls");
 }
-
 
 void decToHex() {
   int dec;
@@ -49,7 +44,6 @@ void decToHex() {
   sleep(2000);
 }
 
-
 void decToBin() {
   int dec;
   clearScreen();
@@ -72,16 +66,15 @@ void decToBin() {
   sleep(2000);
 }
 
-
 int main() {
   clearScreen();
   int selection;
-  printf("\v\t\tHex calculator | Programmed by Datarec\n\n");
-  printf("\v\t1) Dec to hex");
-  printf("\v\t2) Dec to bin");
-  printf("\v\t3) Hex to dec");
-  printf("\v\t4) Bin to deci");
-  printf("\n\n\n\t>> ");
+  printf("\t\tHex calculator | Programmed by Datarec\n\n");
+  printf("\t1) Dec to hex\n");
+  printf("\t2) Dec to bin\n");
+  printf("\t3) Hex to dec\n");
+  printf("\t4) Bin to dec\n");
+  printf("\n\n\t>> ");
   scanf("%d", &selection);
   switch (selection) {
     case 1:
