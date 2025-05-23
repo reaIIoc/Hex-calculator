@@ -69,11 +69,11 @@ void decToBin() {
 int main() {
   clearScreen();
   int selection;
-  printf("\t\tHex calculator | Programmed by Datarec\n\n");
-  printf("\t1) Dec to hex\n");
-  printf("\t2) Dec to bin\n");
-  printf("\t3) Hex to dec\n");
-  printf("\t4) Bin to dec\n");
+  puts("\t\tHex calculator | Programmed by Datarec\n");
+  puts("\t1) Dec to hex");
+  puts("\t2) Dec to bin");
+  puts("\t3) Hex to dec");
+  puts("\t4) Bin to dec");
   printf("\n\n\t>> ");
   scanf("%d", &selection);
   switch (selection) {
