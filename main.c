@@ -19,7 +19,7 @@ void decToHex() {
   clearScreen();
   printf("\tEnter decimal value: ");
   scanf("%d", &dec);
-  char hex[15] = "123456789ABCDEF";
+  char hex[16] = "123456789ABCDEF";
   char rawConversion[20] = "";
   char decToHex[20] = "";
   int nVal = dec;
