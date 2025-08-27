@@ -51,7 +51,7 @@ void decToBin() {
   scanf("%d", &dec);
   const char pbit = '1';
   int decrement = 8;
-  char binary[8] = "00000000";
+  char binary[9] = "00000000";
   int n = dec;
   while (n != 0) {
     decrement--;
